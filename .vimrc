@@ -64,6 +64,7 @@ set t_Co=256                    " enable 256-color mode
 colorscheme Tomorrow-Night
 set ruler                       " show ruler (vim-airline will take care of this anyway)
 set number                      " show line numbers
+set rnu                         " show relative line numbers
 set title                       " show file name in title bar
 set hlsearch                    " highlight search researchs
 set showbreak=↪                 " display this character for line break
