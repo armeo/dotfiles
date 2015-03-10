@@ -19,7 +19,6 @@
 "
 
 set shell=/bin/zsh
-" meh
 set nocompatible
 
 " vundle-required config
@@ -62,7 +61,6 @@ filetype plugin on
 syntax on                       " enable syntax highlighting
 set background=dark             " use dark background to reduce tears level
 set t_Co=256                    " enable 256-color mode
-let base16colorspace=256
 colorscheme Tomorrow-Night
 set ruler                       " show ruler (vim-airline will take care of this anyway)
 set number                      " show line numbers
