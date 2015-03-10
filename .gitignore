@@ -1,0 +1,7 @@
+
+# Folder view configuration files
+.DS_Store
+.Trashes
+
+.vim/.netrwhist
+.vim/bundle/
