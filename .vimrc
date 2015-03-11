@@ -52,7 +52,8 @@ Plugin 'plasticboy/vim-markdown'         " enable mardown syntax support
 Plugin 'vim-scripts/matchit.zip'         " make % highlights mating tags
 Plugin 'pangloss/vim-javascript'         " syntax and indent plugin for javascript
 Plugin 'wookiehangover/jshint.vim'
-Plugin 'chriskempson/base16-vim' 	 " base16 colorscheme for vim
+Plugin 'chriskempson/base16-vim' 	       " base16 colorscheme for vim
+Plugin 'fatih/vim-go'                    " golang 
 
 " don't let vundle mess with indentation / folding for markdown files
 filetype plugin on
