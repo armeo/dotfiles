@@ -53,7 +53,8 @@ Plugin 'vim-scripts/matchit.zip'         " make % highlights mating tags
 Plugin 'pangloss/vim-javascript'         " syntax and indent plugin for javascript
 Plugin 'wookiehangover/jshint.vim'
 Plugin 'chriskempson/base16-vim' 	       " base16 colorscheme for vim
-Plugin 'fatih/vim-go'                    " golang 
+Plugin 'fatih/vim-go'                    " golang
+Plugin 'ap/vim-css-color'                " Preview colours in source code while editingx
 
 " don't let vundle mess with indentation / folding for markdown files
 filetype plugin on
@@ -210,6 +211,6 @@ set synmaxcol=120
 " hint only on save
 let JSHintUpdateWriteOnly=1
 
-" JSON format 
+" JSON format
 nmap <leader>jt <Esc>:%!python -m json.tool<CR><Esc>:set filetype=json<CR>
 let g:vim_json_syntax_conceal = 0
