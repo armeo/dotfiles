@@ -70,13 +70,18 @@ set title                       " show file name in title bar
 set hlsearch                    " highlight search researchs
 set showbreak=↪                 " display this character for line break
 set linespace=3                 " spaces between lines
-set cursorline                  " highlight current line where the cursor is at
+set cursorline                  " highlight current line
 set scrolloff=5                 " number of lines to keep from the edge when scrolling
 if has('statusline')
-  set laststatus=2              " always show status line
+  set laststatus=2                           " always show status line
+	set statusline=%<%f\                       " Filename
+	set statusline+=%w%h%m%r                   " Options
+	set statusline+=%{fugitive#statusline()}   " Git Hotness
+	set statusline+=\ [%{&ff}/%Y]              " Filetype
+	set statusline+=\ [%{getcwd()}]            " Current dir
+	set statusline+=%=%-14.(%l,%c%V%)\ %p%%    " Right aligned file nav info
 endif
-" set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
-set lcs=tab:⤑\ ,trail:·,eol:¬
+set lcs=tab:⤑\ ,trail:·,eol:¬,nbsp:.
 set list
 
 " ---- general settings ----
@@ -180,6 +185,7 @@ nnoremap <leader>r :CtrlPFunky<Cr>
 
 " vim-airline
 let g:airline_powerline_fonts = 1                   " use powerline-patched fonts
+let g:airline#extensions#tabline#enabled = 1        " smarter tab line disply all buffers
 let g:airline#extensions#tabline#left_sep = ' '     " use | instead of > for bufferline
 let g:airline#extensions#tabline#left_alt_sep = '|'
 
@@ -203,3 +209,7 @@ set synmaxcol=120
 " vim-jshint
 " hint only on save
 let JSHintUpdateWriteOnly=1
+
+" JSON format 
+nmap <leader>jt <Esc>:%!python -m json.tool<CR><Esc>:set filetype=json<CR>
+let g:vim_json_syntax_conceal = 0
