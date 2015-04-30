@@ -55,6 +55,7 @@ Plugin 'wookiehangover/jshint.vim'
 Plugin 'chriskempson/base16-vim' 	       " base16 colorscheme for vim
 Plugin 'fatih/vim-go'                    " golang
 Plugin 'ap/vim-css-color'                " Preview colours in source code while editingx
+Plugin 'rust-lang/rust.vim'              " rust lang
 
 " don't let vundle mess with indentation / folding for markdown files
 filetype plugin on
