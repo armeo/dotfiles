@@ -1,3 +1,5 @@
 [user]
 	name = armeo
 	email = armchockaumnuai@gmail.com
+[core]
+	editor = /usr/local/bin/vim
