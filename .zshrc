@@ -59,6 +59,7 @@ export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=/Users/armeo/Documents/workspace/go
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export PATH="$HOME/.node/bin:$PATH"
 
 export DOCKER_HOST=tcp://192.168.59.103:2376
 export DOCKER_CERT_PATH=/Users/armeo/.boot2docker/certs/boot2docker-vm
