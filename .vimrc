@@ -86,6 +86,7 @@ if has('statusline')
 endif
 set lcs=tab:⤑\ ,trail:·,eol:¬,nbsp:.
 set list
+set colorcolumn=80
 
 " ---- general settings ----
 set mouse=a                     " enable mouse support in console
