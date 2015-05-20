@@ -23,3 +23,4 @@ export DOCKER_TLS_VERIFY=1
 
 # Alias
 alias work="cd /Users/armeo/Documents/workspace"
+alias gst="git status"
