@@ -89,6 +89,20 @@ set lcs=tab:⤑\ ,trail:·,eol:¬,nbsp:.
 set list
 set colorcolumn=80
 
+set guifont=Inconsolata\ for\ Powerline:h15
+let g:Powerline_symbols = 'fancy'
+set fillchars+=stl:\ ,stlnc:\
+set term=xterm-256color
+set termencoding=utf-8
+
+" config for macvim
+if has("gui_running")
+	let s:uname = system("uname")
+	if s:uname == "Darwin\n"
+		set guifont=Inconsolata\ for\ Powerline:h15
+	endif
+endif
+
 " ---- general settings ----
 set mouse=a                     " enable mouse support in console
 set autoread                    " reload files when changed on disk
