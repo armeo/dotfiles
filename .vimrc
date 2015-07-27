@@ -58,6 +58,7 @@ Plugin 'ap/vim-css-color'                " Preview colours in source code while 
 Plugin 'rust-lang/rust.vim'              " rust lang
 Plugin 'Valloric/YouCompleteMe'          " YouCompleteMe is a fast, as-you-type, fuzzy-search code completion engine
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'} "Powerline font
+Plugin 'tpope/vim-fireplace'             " Clojure
 
 " don't let vundle mess with indentation / folding for markdown files
 filetype plugin on
