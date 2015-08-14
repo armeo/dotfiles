@@ -26,5 +26,6 @@ export DOCKER_TLS_VERIFY=1
 alias work="cd /Users/armeo/Documents/workspace"
 alias devops="cd /Users/armeo/Documents/workspace/devops"
 alias campaign="cd /Users/armeo/Documents/workspace/ba/true/campaigns"
+alias ims="cd /Users/armeo/Documents/workspace/ba/true/ims"
 alias gst="git status"
 alias gdif="git diff"
