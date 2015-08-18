@@ -57,7 +57,6 @@ Plugin 'fatih/vim-go'                    " golang
 Plugin 'ap/vim-css-color'                " Preview colours in source code while editingx
 Plugin 'rust-lang/rust.vim'              " rust lang
 Plugin 'Valloric/YouCompleteMe'          " YouCompleteMe is a fast, as-you-type, fuzzy-search code completion engine
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'} "Powerline font
 Plugin 'tpope/vim-fireplace'             " Clojure
 Plugin 'derekwyatt/vim-scala'            " Scala
 
@@ -89,7 +88,7 @@ if has('statusline')
 endif
 set lcs=tab:⤑\ ,trail:·,eol:¬,nbsp:.
 set list
-set colorcolumn=80
+set colorcolumn=120
 
 set guifont=Inconsolata\ for\ Powerline:h15
 let g:Powerline_symbols = 'fancy'
