@@ -18,7 +18,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$CATALINA/bin
 export PATH="$HOME/.node/bin:$PATH"
 
-export SBT_OPTS="-Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
+export SBT_OPTS="-Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled"
 
 export DOCKER_TLS_VERIFY="1"
 export DOCKER_HOST="tcp://192.168.99.100:2376"
