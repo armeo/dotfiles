@@ -18,9 +18,10 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$CATALINA/bin
 export PATH="$HOME/.node/bin:$PATH"
 
-export DOCKER_HOST=tcp://192.168.59.103:2376
-export DOCKER_CERT_PATH=/Users/armeo/.boot2docker/certs/boot2docker-vm
-export DOCKER_TLS_VERIFY=1
+export DOCKER_TLS_VERIFY="1"
+export DOCKER_HOST="tcp://192.168.99.100:2376"
+export DOCKER_CERT_PATH="/Users/armeo/.docker/machine/machines/dev"
+export DOCKER_MACHINE_NAME="dev"
 
 # Alias
 alias work="cd /Users/armeo/Documents/workspace"
