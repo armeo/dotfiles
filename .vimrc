@@ -59,6 +59,8 @@ Plugin 'rust-lang/rust.vim'              " rust lang
 Plugin 'Valloric/YouCompleteMe'          " YouCompleteMe is a fast, as-you-type, fuzzy-search code completion engine
 Plugin 'tpope/vim-fireplace'             " Clojure
 Plugin 'derekwyatt/vim-scala'            " Scala
+Plugin 'ktvoelker/sbt-vim'               " SBT
+Plugin 'Chiel92/vim-autoformat'          " auto format
 
 " don't let vundle mess with indentation / folding for markdown files
 filetype plugin on
