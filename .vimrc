@@ -61,6 +61,7 @@ Plugin 'tpope/vim-fireplace'             " Clojure
 Plugin 'derekwyatt/vim-scala'            " Scala
 Plugin 'ktvoelker/sbt-vim'               " SBT
 Plugin 'Chiel92/vim-autoformat'          " auto format
+Plugin 'leafgarland/typescript-vim'      " typescript
 
 " don't let vundle mess with indentation / folding for markdown files
 filetype plugin on
@@ -242,3 +243,5 @@ let g:ycm_use_ultisnips_completer = 1 " Default 1, just ensure
 let g:ycm_seed_identifiers_with_syntax = 1 " Completion for programming language's keyword
 let g:ycm_complete_in_comments = 1 " Completion in comments
 let g:ycm_complete_in_strings = 1 " Completion in string
+
+let g:go_fmt_command = "goimport"
