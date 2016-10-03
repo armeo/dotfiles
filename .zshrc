@@ -26,9 +26,10 @@ export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
 
 # Alias
 alias work="cd /Users/armeo/Documents/workspace"
-alias ascend="cd /Users/armeo/Documents/workspace/ba/true"
-alias devops="cd /Users/armeo/Documents/workspace/devops"
+alias cng="cd /Users/armeo/Documents/workspace/cng"
 alias gst="git status"
 alias gdif="git diff"
 alias gpd="git pull origin develop"
 alias gpm="git pull origin master"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
