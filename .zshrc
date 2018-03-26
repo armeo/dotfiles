@@ -14,12 +14,8 @@ export NVM_DIR=~/.nvm
 source /usr/local/opt/nvm/nvm.sh
 
 export JAVA_HOME=$(/usr/libexec/java_home)
-export GOROOT=/usr/local/opt/go/libexec
-export GOPATH=/Users/armeo/Documents/workspace/go
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH=$PATH:$GOROOT/bin:$CATALINA_HOME/bin
-
-export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
 
 # Alias
 alias work="cd /Users/adisorn/Documents/workspace"
@@ -28,3 +24,16 @@ alias gst="git status"
 alias gdif="git diff"
 alias gpd="git pull origin develop"
 alias gpm="git pull origin master"
+
+alias d=docker
+alias di='docker images'
+alias dps='docker ps'
+alias dka='docker kill $(docker ps -q --no-trunc)'
+alias dsta='docker stop $(docker ps -q --no-trunc)'
+alias drmae='docker rm $(docker ps -qa --no-trunc --filter "status=exited")'
+alias drmiad='docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
+alias dr='docker run'
+alias dritrm='docker run -it --rm'
+alias dr='docker run -it --rm'
+alias dpsa='docker ps -a'
+alias din='docker inspect'
