@@ -1,5 +1,11 @@
 [user]
-	name = armeo
+	name = Adisorn Chockaumnuai
 	email = armchockaumnuai@gmail.com
 [core]
-	editor = /usr/local/bin/vim
+	editor = vim
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
