@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/11356516/Documents/workspace/bay/code/retail/webconfig/KOL/BAY.KOL.WebSite'
+let g:netrw_dirhist_1='/Users/adisorn/Documents/workspace/bay/code/kbol-service/BAY.KBOL/BAY.KOL.Corp.WebService/ResponseXML'

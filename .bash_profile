@@ -1,12 +1,6 @@
 HOST_NAME=arm.adisorn
 
-source ~/.nvm/nvm.sh
-nvm use stable
-shopt -s autocd
-shopt -s histappend
-
-export PATH=$PATH:$HOME/bin
-
+export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH:$HOME/bin
 export HISTSIZE=5000
 export HISTFILESIZE=10000
 
@@ -53,6 +47,7 @@ alias reveal-md="reveal-md --theme night --highlight-theme hybrid --port 1337"
 alias l="ls" # List files in current directory
 alias ll="ls -al" # List all files in current directory in long list format
 alias o="open ." # Open the current directory in Finder
+alias ..="cd .."
 
 # ----------------------
 # Git Aliases
@@ -64,3 +59,4 @@ alias gd='git diff'
 alias gl='git log'
 alias gp='git pull'
 alias gpsh='git push'
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"

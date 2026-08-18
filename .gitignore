@@ -1,7 +1,36 @@
-
-# Folder view configuration files
+# General
+.AppleDouble
 .DS_Store
-.Trashes
+Desktop.ini
+.LSOverride
 
-.vim/.netrwhist
-.vim/bundle/
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Compiled Python files
+*.pyc
+
+# Compiled C++ files
+*.out
+
+# Application specific files
+venv
+node_modules
+.sass-cache
