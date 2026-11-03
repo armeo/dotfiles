@@ -48,6 +48,7 @@ alias l="ls" # List files in current directory
 alias ll="ls -al" # List all files in current directory in long list format
 alias o="open ." # Open the current directory in Finder
 alias ..="cd .."
+alias brewu='brew update && brew upgrade && brew upgrade --cask && brew cleanup --prune=5 && brew doctor'
 
 # ----------------------
 # Git Aliases
